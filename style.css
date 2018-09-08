@@ -3,6 +3,8 @@
   font-style: normal;
   font-weight: 400;
   src: url(https://static.canva.com/static/webfonts/Kollektif.woff) format('woff');
+  
+@import url(https://static.canva.com/static/webfonts/Kollektif.woff) format('woff');
 
 body {
   margin: 0; }
