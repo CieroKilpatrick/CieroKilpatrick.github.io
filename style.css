@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Kollektif';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://static.canva.com/static/webfonts/Kollektif.woff) format('woff');
+
 body {
   margin: 0; }
 
@@ -188,7 +194,7 @@ p {
 
 .mouse-caption {
   position: absolute;
-  bottom: -20px;
+  bottom: 10px;
   left: 50%;
   margin-left: -59px;
   font-size: 12px; }
@@ -200,7 +206,7 @@ p {
   height: 46px;
   border-radius: 13px;
   border: 2px solid #fff;
-  bottom: 40px;
+  bottom: 70px;
   position: absolute;
   left: 50%;
   margin-left: -14px; }
