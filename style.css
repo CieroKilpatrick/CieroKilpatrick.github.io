@@ -7,7 +7,8 @@
 @import url(https://static.canva.com/static/webfonts/Kollektif.woff) format('woff');
 
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: 'roboto'}
 
 .main_h {
   position: fixed;
