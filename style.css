@@ -1,18 +1,5 @@
-@import url("https://static.canva.com/static/webfonts/Kollektif.woff");
-@import url("https://fonts.googleapis.com/css?family=Roboto");
-@font-face {
-  font-family: 'Kollektif';
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://static.canva.com/static/webfonts/Kollektif.woff") format("woff"); }
-
-html, body{
- height:100%; 
-}
-
 body {
-  margin: 0;
-  font-family:'roboto'}
+  margin: 0; }
 
 .main_h {
   position: fixed;
@@ -31,7 +18,7 @@ body {
   text-align: center; }
   @media only screen and (max-width: 766px) {
     .main_h {
-      max-height: 79px; } }
+      max-height: 90px; } }
 
 .open-nav {
   height: 100%;
@@ -69,12 +56,12 @@ body {
     .top .middle .title {
       font-family: 'kollektif';
       font-weight: 300;
-      font-size: 2.3rem;
+      font-size: 2.0rem;
       margin-top: 0px;
       margin-bottom: 0px; }
     .top .middle p {
       font-size: 1.3rem; }
-    @media (max-width: 755px) {
+    @media (max-width: 430px) {
       .top .middle .title {
         font-size: 1.4rem; }
       .top .middle span {
@@ -118,8 +105,8 @@ nav {
       @media only screen and (max-width: 766px) {
         nav ul li {
           width: 100%;
-          padding: 7px 0;
-          margin: 0; } }
+          padding: 10px 0;
+          margin: 0 0 0 -50px; } }
     nav ul a {
       color: #516886;
       font-size: 18px; }
