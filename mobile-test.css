@@ -6,7 +6,7 @@ html, body{
 }
 
 body{
-  font-family:'kollektif';
+  font-family:'kollektif' , 'Roboto', Helveitica;
   font-weight:100;
   font-size:16px;
   z-index:0;
