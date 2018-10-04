@@ -40,7 +40,7 @@ ul{
 }
 
 
-@media (max-width:490px) {
+@media (max-width:700px) {
   
   .navigation{
     display:none;
