@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo');
+
+
+#footer{
+    width: 100%;
+    padding:40px 0;
+    background-color: #262626;
+    color:aquamarine;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media(max-width:540px){
+    #footer{
+        color: whitesmoke;
+    }
+}
