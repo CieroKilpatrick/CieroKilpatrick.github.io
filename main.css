@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo|Nunito');
+
+body{
+    font-family: 'Chivo';
+    letter-spacing: 1.3px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.section:nth-child(even){
+    background-color:#262626; 
+}
+
+.section{
+    width:100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1, h3{
+    font-family: 'Nunito';
+}
+
+#contact_form{
+    text-align: center;
+    background-color: #262626;
+    color:white;
+    padding: 50px 0;
+}
+
+#contact_form h1{
+    font-size: 48px;
+    line-height: 1.1;
+}
+#contact_slide{
+
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color:#262626;
+    color:white;
+}
+
+#contact_slide h1{
+    font-size: 48px;
+    margin-bottom: 50px;
+    line-height: 1.1;
+}
+
+#resources_slide{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top:50px;
+}
+
+#resources_slide button{
+    margin-top: 50px;
+}
+
+#resources_slide h3{
+    margin-bottom: 50px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    border: solid black 3px;
+    font-family: 'Chivo';
+    transition: 0.3s;
+    background-color: white;
+}
+
+button:hover{
+    border: solid rgb(0, 112, 75) 3px;
+    color: rgb(39, 121, 93);
+}
