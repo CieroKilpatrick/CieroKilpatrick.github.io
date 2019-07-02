@@ -85,7 +85,13 @@ h2{
   color:#d2eed2
 }
 
-.box_text{
+.box_text_dark{
   font-size:190px;
   opacity: 0.05;
+}
+
+.box_text_light{
+  font-size:190px;
+  opacity: 0.55;
+  color:black;
 }
