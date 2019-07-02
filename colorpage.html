@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>New File</title>
+    <link rel="stylesheet" href="colorpage.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1 class="title"><center>Color List</center></h1>
+    <h2><center>Click on any color box to copy the hex code.</center></h2>
+    <div class="color_box_1" onclick="copyToClipboard('#barely_blue')"><span class="box_text">#92f2fc</span></div>
+    <div align="center" class="description">
+    This color is <span class="color_name_1">Barely Blue</span>. The Hex code is <span id="barely_blue">#92F2fC</span>.
+    </div>
+
+    <div class="color_box_2"><span class="box_text">#f93321</span></div>
+    <div align="center" class="description">
+    This color is <span class="color_name_2">Tomato</span>. It's The code is <span id="tomato">#f93321</span>.
+    </div>
+
+    <div class="color_box_3"><span class="box_text">#765432</span></div>
+    <div align="center" class="description">
+    This color is <span class="color_name_3">Brown</span>. The Hex code is <span id="brown">#765432</span>.
+    </div>
+
+    <div class="color_box"><span class="box_text">#d2eed2</span></div>
+    <div align="center" class="description">
+    This color is <span class="color_name_4">Cereal Milk</span>. The Hex code is <span id="cereal_milk">#d2eed2</span>.
+    </div>
+  </body>
+</html>
+
+<script type="application/javascript">
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+</script>
