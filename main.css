@@ -52,7 +52,7 @@ body{
 	}
 
 
-@media only screen and (max-width: 918px) {
+@media (max-width: 918px) {
 	
 	.selections img{
 		width: 95%;
