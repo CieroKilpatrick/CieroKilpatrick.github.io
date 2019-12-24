@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
 
 body{
-	margin:0;
-	font-family: Roboto;
+	margin: 0;
+	font-family: Roboto, sans-serif;
 }
 
 .intro h1{
 	font-family: Poppins;
 	letter-spacing: 1.2px;
-	
+  font-weight: 100;
 }
 
 
@@ -28,7 +28,7 @@ body{
 
 .selections img{
 		max-width: 250px;
-		height: auto;
+		height: 250px;
 	}
 
 .box_porfolio{
@@ -53,7 +53,7 @@ body{
 	}
 
 
-@media (max-width: 918px) {
+@media only screen and (max-width: 918px) {
 	
 	.selections img{
 		width: 95%;
