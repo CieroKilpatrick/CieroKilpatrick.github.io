@@ -1,23 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,500,700,800,900');
+
 
 body{
 	margin: 0;
-	font-family: Roboto, sans-serif;
+	font-family: 'Roboto' , sans-serif;
 }
 
+h2{
+	margin: 0;
+	font-weight: 500;
+	}
+
 .intro h1{
-	font-family: Poppins;
+	font-family: 'Poppins', serif;
 	letter-spacing: 1.2px;
-  font-weight: 100;
 }
 
 
 .intro{
 	padding: 0 7%;
 	line-height:1.5;
-	margin: 40px 0 10px 0;
+	margin: 40px 0 25px 0;
 }
-
 
 .selections {
 	display: flex;
@@ -30,6 +35,7 @@ body{
 		max-width: 250px;
 		height: 250px;
 	}
+	
 
 .box_porfolio{
 		order: 1;
@@ -45,19 +51,41 @@ body{
 	}
 	
 	.box {
-		margin-bottom: 40px;
+		margin-bottom: 15px;
+		padding: 5px;
 	}
 	
-	.box img{
-			border: solid 1px white;
-	}
+	.box svg, .box img{
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.0);
+		border-radius: 15px;
+		border: solid 0px rgba(2, 137, 255, 0.2);
+		margin-bottom: -20px;
 
+	}
+	
+	.box svg:hover{
+		background-color: rgba(2, 137, 234, 0.2);
+		cursor: pointer;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.0);
+	}
+	.box img:hover{
+		background-color: rgba(2, 137, 234, 0.2);
+		cursor: pointer;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0);
+
+
+	}
 
 @media only screen and (max-width: 918px) {
 	
 	.selections img{
 		width: 95%;
-		max-height:auto;
+		max-height: auto;
+	}
+	
+	.selections {
+		width: 95%;
+		max-height: auto;
 	}
 	
 }
@@ -67,17 +95,16 @@ body{
 	.selections {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-around
+		justify-content: space-around;
 	}
 	
-	.box_porfolio{
-		order: 2;
-	}
-
 	.box_resume{
 		order: 1;
 	}
-
+	
+	.box_portfolio{
+		order: 2;
+	}
 
 	.box_contact{
 		order: 3;
