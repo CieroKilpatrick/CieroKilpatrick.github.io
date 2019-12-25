@@ -1,3 +1,11 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+
 <h1><center>Contact</center></h1>
 
 <p><center>Here is some dummy text lorem 50.</center></p>
@@ -24,3 +32,7 @@
 
 </div>
 <p><center>Other ways to reach me.</center></p>
+
+</body>
+
+</html>
