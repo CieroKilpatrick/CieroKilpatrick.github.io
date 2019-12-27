@@ -92,12 +92,14 @@ h1{
 	position: absolute;
 	left: 20px;
 	top: 10px;
+	max-width: 30px;
+	max-height: auto;
 }
 
 .something-mobile{
 	position: absolute;
 	left: 60px;
-	top: 17px;
+	top: 16px;
 	color: #ddd;
 }
 
