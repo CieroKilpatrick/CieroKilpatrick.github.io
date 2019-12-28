@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,400,600');
+
+.nav{
+	background-color: #222;
+	width: 100%;
+	height: 20px;
+	padding: 15px 15px;
+	color: #ddd;
+}
+
+
 body{
 	margin: 0;
 	background-color: #ffffff;
@@ -25,3 +36,65 @@ img{
 .tags{
 	padding:0;
 }
+
+.mobile-text{
+	padding: 0 20px;
+	margin-bottom: -20px;
+}
+
+.container{
+	padding: 0 20px;
+	margin-top: 50px;
+}
+
+h1{
+	font-family: 'Poppins';
+}
+
+#back_mobile{
+	max-height:30px;
+	max-width: 30px;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	
+}
+
+.something-mobile{
+	position: absolute;
+	left: 60px;
+	top: 17px;
+}
+
+#back{
+	position: fixed;
+	left: 20px;
+}
+
+.something{
+	position: absolute;
+	left: 120px;
+	top: 60px;
+	font-size: 14px;
+	font-weight: 700;
+	color: green;
+}
+
+@media (min-width:700px){
+	#mobile-back{
+		visibility: hidden;
+	}
+	
+	.something-mobile{
+		visibility: hidden;
+	}
+}
+
+@media (max-width:700px){
+	#back{
+		visibility: hidden;
+	}
+	
+	.something{
+		visibility: hidden;
+	}
