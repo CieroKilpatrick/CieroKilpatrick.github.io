@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	background-color: #ffffff;
+	font-family: arial;
+}
+
+.description{
+text-align:justify;
+}
+
+img{
+	width: 100%;
+	height: auto;
+	max-height: 400px;
+	max-width: 400px;
+}
+
+.tags li{
+	display: inline;
+	font-weight: 600;
+	font-size: 12px;
+	
+}
+
+.tags{
+	padding:0;
+}
