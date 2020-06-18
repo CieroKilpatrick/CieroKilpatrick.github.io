@@ -21,13 +21,13 @@ body {
 }
 
 .main-content {
-  margin-top: 50px;
+  margin-top: 100px;
   padding-left: 10%;
 }
 
 
 footer img {
-  max-height: 30px;
+  max-height: 50px;
   max-width: auto;
 }
 
@@ -35,16 +35,16 @@ footer {
   display: flex;
   justify-content: space-evenly;
   margin: 0;
-  padding: 20px 0;
+  padding: 40px 0;
   background-color: #20262E;
   position: relative;
   width: 100%;
-  margin-top: -70px;
+  margin-top: -130px;
   clear: both;
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 52px;
 }
 
 h2 {
@@ -52,7 +52,7 @@ h2 {
 }
 
 .selections {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 .selection {
