@@ -1,0 +1,116 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+#main-box li {
+    list-style: none;
+}
+
+#main-box a {
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    float: left;
+    width: 33%;
+}
+
+#main-box{
+    background-color: #fff;
+    height: 85vh;
+}
+
+.top{
+    padding: 20% 25%;
+}
+
+.top li{
+    margin-bottom: 20px;
+}
+
+.nom{
+    font-size: 47px;
+}
+
+.title{
+    font-size: 18px;
+}
+
+.navigation{
+    padding: 0 25%;
+}
+
+.nav li{
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+
+}
+
+#content{
+    background-color: cornflowerblue;
+    background-image: url(/image-hero.jpg);
+    background-position: 180PX -400PX;
+    background-size: 90% 180%;
+    height: 100vh;
+}
+
+#footer{
+    background-color: #fff;
+    height: 115vh;
+}
+
+.links {
+    padding: 3% 18%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-links{
+    max-height: 45px;
+    width: auto;
+}
+
+@media (max-width:970px) {
+
+    .top{
+        padding: 10% 25%;
+    }
+
+    .top li{
+        margin-bottom: 15px ;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    #content {
+        display: none;
+    }
+}
+
+.mobile-hero{
+    padding: 0 15%;
+}
+
+
+@media (max-height: 752px) and (max-width: 700px){
+    .mobile-hero{
+        display: none;
+    }
+}
+.mobile-image{
+    display: none;
+    max-height: 200px;
+    width: 250px;
+    margin-top: -30px;
+    margin-bottom: 20px;;
+}
