@@ -136,6 +136,14 @@ section{
         display: none;
 
     }
+    
+    .top{
+        margin-bottom; 50px
+    }
+    
+    .title{
+        font-size: 14px;
+    }
 
     .links img{
         display: none;
