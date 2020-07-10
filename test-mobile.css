@@ -144,13 +144,17 @@ section{
     .title{
         font-size: 14px;
     }
+    
+    .navigation {
+        martin-top: -40px;
+    }
 
     .links img{
         display: none;
     }
 
     #content{
-        background-position: 180PX -430PX;
+        background-position: 180px -430px;
         background-size: 100% 240%;
     }
 
