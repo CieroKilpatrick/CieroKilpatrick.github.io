@@ -81,7 +81,7 @@ section{
 @media (max-width:970px) {
 
     .top{
-        padding: 8% 23%;
+        padding: 8% 20%;
     }
 
     .top li{
@@ -101,7 +101,7 @@ section{
     }
     
     .navigation{
-    padding: 0 25%;
+    padding: 0 20%;
 }
 
     .navigation li{
