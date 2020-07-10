@@ -139,7 +139,9 @@ section{
     
     .top{
         margin-bottom: -70px;
+        padding: 8% 21%;
     }
+
     
     .title{
         font-size: 14px;
@@ -147,6 +149,8 @@ section{
     
     .navigation {
         martin-top: -20px;
+        padding: 0 21%;
+        
     }
 
     .links img{
