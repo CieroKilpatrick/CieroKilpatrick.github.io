@@ -147,7 +147,7 @@ section{
     }
     
     .navigation {
-        martin-top: -20px;
+        martin-top: -35px;
         
     }
 
@@ -158,7 +158,7 @@ section{
     #content{
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: top;
+        background-position: center;
     }
 
 }
