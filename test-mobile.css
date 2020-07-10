@@ -99,11 +99,6 @@ section{
     section {
         width: 100%;
     }
-    
-    .navigation{
-        margin-bottom: -200px;
-    }
-
 
     .navigation li{
         font-size: 20px;
@@ -112,6 +107,11 @@ section{
     #content {
         display: none;
     }
+    
+    #footer{
+        margin-top: -30px;
+    }
+
 
      
 }
