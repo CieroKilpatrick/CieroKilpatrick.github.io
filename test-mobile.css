@@ -57,14 +57,14 @@ section{
 #content{
     background-color: cornflowerblue;
     background-image: url(/image-hero.jpg);
-    background-position: 180PX -400PX;
-    background-size: 90% 180%;
+    background-position: 200PX -500PX;
+    background-size: 100% 200%;
     height: 100vh;
 }
 
 #footer{
     background-color: #fff;
-    height: 115vh;
+    height: 15vh;
 }
 
 .links {
@@ -88,13 +88,27 @@ section{
         margin-bottom: 15px ;
     }
 
+    .nom{
+        font-size: 52px;
+    }
+    
+    .title{
+        font-size: 14px;
+    }
+
     section {
         width: 100%;
+    }
+
+    .navigation li{
+        font-size: 20px;
     }
 
     #content {
         display: none;
     }
+
+     
 }
 
 .mobile-hero{
@@ -102,13 +116,24 @@ section{
 }
 
 
-@media (max-height: 752px) and (max-width: 700px){
+@media (max-height: 584px){
     .mobile-hero{
         display: none;
+
     }
+
+    .links{
+        visibility: hidden;
+    }
+
+    #content{
+        background-position: 180PX -430PX;
+        background-size: 90% 240%;
+    }
+
 }
 .mobile-image{
-    display: none;
+    display: none ;
     max-height: 200px;
     width: 250px;
     margin-top: -30px;
