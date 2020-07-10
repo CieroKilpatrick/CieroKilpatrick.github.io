@@ -138,7 +138,7 @@ section{
     }
     
     .top{
-        margin-bottom; -70px
+        margin-bottom: -70px;
     }
     
     .title{
@@ -151,7 +151,7 @@ section{
 
     #content{
         background-position: 180PX -430PX;
-        background-size: cover;
+        background-size: 100% 240%;
     }
 
 }
