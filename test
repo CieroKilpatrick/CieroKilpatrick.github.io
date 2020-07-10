@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test-mobile.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section>
+
+    <div id="main-box">
+
+        <div class="top">
+            <ul class="name">
+                <li class="nom">Ciero <br> Kilpatrick</li>
+                <li class="title">User Experience Portfolio</li>
+                <li class="title">[designer/researcher]</li>
+            </ul>
+        </div>
+
+        <div class=mobile-hero>
+            <img class="mobile-image" src="/image-hero.jpg">
+        </div>
+
+        <div class="navigation">
+           <ul class="nav">
+               <li><a href='#'>Read My Writings</a></li>
+               <li><a href='#'>See My Portfolio</a></li>
+               <li><a href='#'>View Resources</a></li>
+               <li><a href='#'>Contact Me</a></li>
+           </ul>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="links">
+            <img class="social-links" src="/linkedin.png" alt="">
+            <img class="social-links" src="/instagram.png" alt="">
+            <img class="social-links" src="/twitter.png" alt="">
+
+        </div>
+    </div>
+
+    </section>
+
+    <div id="content">
+        content
+    </div>
+    
+</body>
+</html>
