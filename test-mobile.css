@@ -156,7 +156,7 @@ section{
     #content{
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 180px -430px;
+        background-position: center;
     }
 
 }
