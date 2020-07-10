@@ -137,8 +137,8 @@ section{
 
     }
 
-    .links{
-        visibility: none;
+    .links img{
+        display: none;
     }
 
     #content{
