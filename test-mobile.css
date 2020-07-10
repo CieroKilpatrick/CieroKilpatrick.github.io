@@ -154,9 +154,9 @@ section{
     }
 
     #content{
-        background-position: 180px -430px;
         background-size: cover;
         background-repeat: no-repeat;
+        background-position: 180px -430px;
     }
 
 }
