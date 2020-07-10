@@ -115,6 +115,12 @@ section{
     #footer{
         margin-top: -60px;
     }
+    
+    .links {
+    padding: 3% 17%;
+    display: flex;
+    justify-content: space-around;
+}
 
 
      
