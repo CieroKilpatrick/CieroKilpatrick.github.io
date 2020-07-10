@@ -99,6 +99,11 @@ section{
     section {
         width: 100%;
     }
+    
+    .navigation{
+        margin-bottom: -100px;
+    }
+
 
     .navigation li{
         font-size: 20px;
