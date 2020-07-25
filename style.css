@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    font-family: 'Courier Prime', monospace;
+
+}
+
+.square{
+    background-color: brown;
+    background-image: url(/bg-image.jpg);
+    background-size: 120% 100%;
+    background-position: 70% 50%;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+.square-two{
+    background-color: brown;
+    background-image: url(/bg-image3.jpg);
+    background-size: 100% 120%;
+    background-position: 70% 50%;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+.square-three{
+    background-color: brown;
+    background-image: url(/bg-image2.jpg);
+    background-size: 100% 100%;
+    background-position: 70% 50%;
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+    position: relative;
+
+}
+
+.label{
+    background-color: seagreen;
+    padding: 10px;
+    width: 35%;
+    position: relative;
+    left: 20px;
+    top: 45px;
+    opacity: 0.8;
+    color: rgba(255, 255, 255, 2);
+}
+
+.writing-two{
+    background-color: seashell;
+    color: slategray;
+}
+
+
+.writing-three{
+    background-color: rgb(211, 106, 211);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .square:hover .overlay {
+    opacity: 1;
+    z-index: 2;
+  }
+
+  .square-two:hover .overlay {
+    opacity: 1;
+    z-index: 2;
+  }
+
+  .square-three:hover .overlay {
+    opacity: 1;
+    z-index: 2;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .footer{
+      margin-top: -10px;
+      display: flex;
+      justify-content: space-around;
+      padding: 25px 40px;
+  }
+
+  .footer img{
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+  }
