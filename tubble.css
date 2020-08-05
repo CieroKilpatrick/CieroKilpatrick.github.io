@@ -1,0 +1,77 @@
+#mobile-menu{
+    position: fixed;
+    right: 40px;
+    top: 15px;
+    border: 2px solid cadetblue;
+    padding: 5px 10px;
+    color: cadetblue;
+    transition: 0.3s;;
+}
+
+#mobile-menu:hover{
+    background-color: cadetblue;
+    color:#fff;
+}
+
+.header{
+    width:100%;
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+
+.square{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.image-holder{
+    margin-left: 15%;
+    width: 70%;
+
+}
+
+.image-holder img{
+    width: 100%;
+    height: auto;
+    margin-top: -16px;
+}
+
+.label{
+    top: 80px;
+    left: -50px;
+    position: relative;
+    padding: 5px 15px;
+    opacity: 0.8;
+}
+
+.prompts .label{
+    background-color: lightcoral;
+    max-width: 20%;
+
+}
+
+.job-projects{
+    margin-top: 30px;;
+}
+
+.job-projects .label{
+    background-color: lightblue;
+    max-width: 23%;
+
+}
+
+.base{
+    margin-top: 30px;
+}
+
+.base .icons{
+    padding: 40px 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.base img{
+    max-height: 40px;
+}

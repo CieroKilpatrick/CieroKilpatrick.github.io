@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="landscape.css">
+    <link rel="stylesheet" href="tubble.css">
+
+    <style>
+        body {
+          font-family: 'Lato', sans-serif;
+        }
+        
+        .overlay {
+          height: 100%;
+          width: 100%;
+          display: none;
+          position: fixed;
+          z-index: 1;
+          top: 0;
+          left: 0;
+          background-color: rgb(0,0,0);
+          background-color: rgba(0,0,0, 0.9);
+        }
+        
+        .overlay-content {
+          position: relative;
+          top: 25%;
+          width: 100%;
+          text-align: center;
+          margin-top: 30px;
+        }
+        
+        .overlay a {
+          padding: 8px;
+          text-decoration: none;
+          font-size: 36px;
+          color: #818181;
+          display: block;
+          transition: 0.3s;
+        }
+
+        .overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 40px;
+  right: 45px;
+  font-size: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 11px;
+  right: 41px;
+  }
+}
+</style>
+
+
+</head>
+
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+<div class="header">
+<center>Portfolio</center> <span id="mobile-menu" style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+  <div class="square prompts">
+      <div class="image-holder">
+          <div class="label">Prompts</div>
+        <img src="/unsplash1.jpg" alt="projects">
+      </div>
+  </div>
+  
+  <div class="square job-projects">
+    <div class="image-holder">
+        <div class="label">Job Projects</div>
+      <img src="/unsplash2.jpg" alt="projects">
+    </div>
+</div>
+
+<div class="base">
+  <center>Social Media:</center>
+  <div class="icons">
+  <img src="instagram.png" alt="">
+  <img src="twitter.png" alt="">
+  <img src="linkedin.png" alt="">
+  </div>
+</div>
+
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.display = "block";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.display = "none";
+  }
+  </script>
+<body>
+    
+</body>
+</html>
