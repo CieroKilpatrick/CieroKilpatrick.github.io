@@ -208,7 +208,7 @@
 
     #mobile-menu{
         position: absolute;
-        color: cadetblue;
+        color: cadetblue !important;
 
     }
 
