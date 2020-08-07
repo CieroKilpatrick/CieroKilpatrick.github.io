@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
 #mobile-menu{
     position: fixed;
     right: 40px;
@@ -74,4 +78,129 @@
 
 .base img{
     max-height: 40px;
+}
+
+@media (min-width:1200px){
+    .base{
+        display: none;
+    }
+
+    .wrapper{
+        max-width: 80%;
+        margin-left: 470px;    }
+
+    .choices{
+        width: 30%;
+        height: 100vh;
+        position: fixed;
+        float: left;
+        margin-right: 100px;
+        border-right: 1px solid rgb(186, 194, 202);
+        padding-top: 6%;
+    }
+
+.page-top{
+    padding-right: 30px;
+    margin-left: 20%;
+}
+
+    nav{
+        margin-top: 10%;
+        text-align: inherit;
+   }
+
+    .title{
+        font-size: 38px;
+    }
+
+    .choices ul{
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+=        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 38vh;
+        padding: 0;
+
+
+    }
+
+    .choices li{
+        display: table-row;
+        list-style: none;
+        margin: 10% 0;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .choices li:hover{
+        color: rgb(41, 41, 38);
+        cursor: pointer;
+        background-color: #f1f1f1;
+    }
+
+    nav span{
+
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 20%;
+    }
+
+    
+    footer{
+        padding-top: 0%;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        height: 120px;
+        bottom: 0;
+        padding-bottom: 10%;
+        margin-left: 20%;
+        padding-right: 30px;
+    }
+
+    footer img{
+        height: 35px;
+        width:auto;
+        cursor: pointer;
+        margin-right: 70%;
+    }
+
+    .header span {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px){
+    .choices{
+        display: none;
+    }
+}
+
+@media screen and (max-width:501px) and (orientation:portrait) {
+    .image-holder{
+        margin-left:0;
+        width:100%;
+    }
+
+    .square{
+        margin-top: -10px;
+        margin-bottom: 10px;;
+    }
+
+    .label{
+        top: 40px;
+        left: 15px;
+        padding: 5px 15px;
+    }
+
+    .job-projects .label{
+        background-color: lightblue;
+        max-width: 27%;
+    
+    }
+
+    #mobile-menu{
+        position: absolute;
+    }
 }
