@@ -19,7 +19,7 @@ img{
 
 .boxes{
     position: relative;
-    background-image: url("/images/Tech2.png");
+    background-image: url("Tech2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
